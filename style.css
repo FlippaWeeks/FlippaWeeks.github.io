@@ -1,0 +1,37 @@
+body {
+  background-image: url(header.jpg);
+  min-height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-and-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  word-wrap: break-word;
+  margin: 300px 10px 100px 10px;
+}
+.btn-primary {
+  width: 250px;
+  height: 60px;
+  border-radius: 50px;
+  margin: 275px 10px 50px 10px;
+  background-color: #ff7400;
+  border: #ff7400;
+  text-transform: uppercase;
+  font-family: Helvetica, Arial, sans-serif;
+}
